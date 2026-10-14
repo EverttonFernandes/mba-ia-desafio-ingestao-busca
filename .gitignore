@@ -1,3 +1,23 @@
+# Entrega: permitir apenas estrutura do desafio e este controle do Git.
+# Docs, skills, rules, tracking, spec, testes e ferramentas locais ficam no disco.
+/*
+!/.gitignore
+!/docker-compose.yml
+!/requirements.txt
+!/.env.example
+!/src/
+!/document.pdf
+!/README.md
+
+# Ambiente local e segredos, inclusive dentro de src/.
 .env
-/venv
-__pycache__
+.env.*
+!/.env.example
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
