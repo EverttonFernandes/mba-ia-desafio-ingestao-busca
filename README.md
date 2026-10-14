@@ -11,8 +11,9 @@ O PDF foi selecionado com permissão de uso e redistribuição confirmada pelo u
 OpenAI é o provedor escolhido; embeddings e busca foram validados com 1.536 dimensões.
 Nenhuma chave de modelo é necessária para subir o banco e o pgAdmin.
 
-O GitHub informa que o repositório atual não é um fork do exemplo. Regularizar a
-origem conforme o enunciado é uma pendência manual que bloqueia a entrega final.
+A entrega foi preparada para o [fork público do repositório oficial](https://github.com/EverttonFernandes/mba-ia-desafio-ingestao-busca),
+cuja relação com a origem do desafio foi confirmada pela API do GitHub. A publicação
+da implementação nesse fork e a submissão da URL no canal do MBA são os passos finais.
 
 ## Pré-requisitos e Python
 
@@ -541,8 +542,7 @@ segredos cobre o conjunto rastreado, o histórico Git alcançável, padrões de 
 OpenAI e valores locais conhecidos; não substitui uma auditoria de segurança
 universal nem comprova ausência de toda vulnerabilidade nas dependências.
 
-## Próximas etapas
+## Entrega
 
-A próxima história preparará a entrega pública. A exigência de fork do
-repositório oficial e a submissão no canal do MBA continuam pendentes para a
-entrega final.
+O destino da entrega é o [fork público exigido pelo desafio](https://github.com/EverttonFernandes/mba-ia-desafio-ingestao-busca).
+Depois de publicar esta versão, envie essa URL no canal de avaliação do MBA.
