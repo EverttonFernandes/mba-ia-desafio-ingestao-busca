@@ -1,5 +1,5 @@
-# Entrega: permitir apenas estrutura do desafio e este controle do Git.
-# Docs, skills, rules, tracking, spec, testes e ferramentas locais ficam no disco.
+# Entrega: estrutura do desafio, testes reproduziveis e este controle do Git.
+# Docs, skills, rules, tracking, spec e ferramentas de provas pagas ficam locais.
 /*
 !/.gitignore
 !/docker-compose.yml
@@ -8,6 +8,18 @@
 !/src/
 !/document.pdf
 !/README.md
+!/tests/
+/tests/*
+!/tests/test_ingest.py
+!/tests/test_search.py
+!/tests/test_answering.py
+!/tests/test_chat.py
+!/tests/integration_ingest.py
+!/tests/integration_search.py
+!/tests/verify_persistence.py
+!/tests/fixtures/
+/tests/fixtures/*
+!/tests/fixtures/answering_prompt.txt
 
 # Ambiente local e segredos, inclusive dentro de src/.
 .env
